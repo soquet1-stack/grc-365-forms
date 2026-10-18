@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Treson Soquena: Form</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+<style>
+	@font-face {
+		font-family: Gill Sans;
+	} .h1a {
+		text-align: center;
+		font: 18pt/1.4em Ubuntu;
+		font-weight: 800;
+		margin: 12px auto;
+		color: #1A5540;
+	}.h1b {
+		text-align: center;
+		font: 24pt/0.8em Ubuntu;
+		font-weight: 700;
+		margin: 12px auto;
+		color: #1A5540;
+	} .container {
+		display: inline-flex;
+	} .form1 {
+		width: 200px;
+		min-height: 400px;
+		background: #50E0A4;
+		margin: 36px 12px 0px 36px;
+		padding: 24px 24px 24px 24px;
+		border: 5px solid #64D0A6;
+		border-radius: 12px;
+	} .form2 {
+		width: 400px;
+		min-height: 400px;
+		background: #50E0A4;
+		margin: 36px 12px 0px 36px;
+		padding: 24px 24px 24px 24px;
+		border: 5px solid #64D0A6;
+		border-radius: 12px;
+	} select {
+		margin:5px 0px 5px 24px;
+	} .other {
+		margin:5px 0px 5px 24px;
+		width: 90%
+	} input[type="text"] {
+		margin: 12px 0px 0px 0px;
+		font: 12pt
+	} label {
+		font: 12pt/1.6em Ubuntu;
+		color: #1A5540;
+	} legend {
+		font: 14pt/1.6em Ubuntu;
+		color: #1A5540;
+		margin-right: 12px;
+	} input[type="submit"] {
+		font: 12pt/1.6em Ubuntu;
+		color: #1A5540;
+		margin-right: 12px;
+	} .comments {
+		width: 98%
+		
+</style>
+</head>
+
+<body>
+	<div class="container">
+	<div class="div1">
+		<form class= "form1" action="#" method="post">
+		<h1 class="h1a">How to Contact:</h1>
+		<input type="text"/> <br/>
+		<label>First Name</label> <br/>
+		<input type="text"/> <br/>
+		<label>Last Name</label> <br/> <br/>
+		<input type="text"/> <br/>
+		<label>Email</label> <br/> <br/>
+		<fieldset>
+		<legend>System</legend>
+		<input type="radio" name="os" />
+		<label>Mac OS</label> <br/>
+		<input type="radio" name="os" />
+		<label>Windows</label> <br/>
+		<input type="radio" name="os" />
+		<label>UNIX</label> <br/>
+		</fieldset>
+		</form>
+	</div>
+	<div class="div2">
+		<form class= "form2" action="#" method="post">
+		<h1 class="h1b"> Requests </h1>
+		<fieldset>
+		<legend>Services</legend>
+		<input type="checkbox"> <label>Design Commission</label> <br/>
+		<select>
+			<option>2D Digital Art</option>
+			<option>3D Art</option>
+			<option>Web Design</option>
+			<option>Sketches/Concept</option>
+			<option>Animation</option>
+		</select> <br/>
+		<input type="checkbox"> <label>Business Information</label> <br/>
+		<input type="checkbox"> <label> Portfolio Gallery </label>  <br/>
+		<input type="checkbox"> <label> Other: </label> <br/>
+		<textarea class="other"></textarea>
+		</fieldset> <br/>
+			
+		<fieldset>
+		<legend>Additional Comments:</legend>
+		<textarea class="comments"></textarea> <br/>
+		</fieldset> <br/>
+			
+		<input type="submit">
+		
+
+		</form>
+		</div>
+	</div>
+</body>
+</html>
